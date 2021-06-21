@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/bettyspurgeon/3-panel-preview-component)
-- Live Site URL: [Add live site URL here](https://bettyspurgeon.github.io/3-panel-preview-component/)
+- Solution URL: (https://github.com/bettyspurgeon/3-panel-preview-component)
+- Live Site URL: (https://bettyspurgeon.github.io/3-panel-preview-component/)
 
 ## My process
 
