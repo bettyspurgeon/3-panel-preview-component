@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.panel-table {
+    padding: 15px 25px;
+    width: 85%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+}
+.rental-type {
+    height: 375px;
+    padding: 50px;
+}
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color:hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.rental-button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+a {
+    margin-top: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+.sedans-type {
+    background-color: hsl(31, 77%, 52%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.suv-type {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury-type {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sedans-link {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv-link {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-link {
+    color: hsl(179, 100%, 13%); 
+}
