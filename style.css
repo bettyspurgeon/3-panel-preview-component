@@ -50,7 +50,7 @@ html {
     box-sizing: border-box;
 }
 body {
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 95%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +91,6 @@ p {
     border-radius: 30px;
 }
 a {
-    margin-top: 25px;
     font-family: 'Lexend Deca', sans-serif;
     text-decoration: none;
     font-size: 15px;
@@ -119,4 +118,40 @@ a {
 
 .luxury-link {
     color: hsl(179, 100%, 13%); 
+}
+.attribution p {
+    color: #000000; 
+    text-align: center;
+}
+@media (min-width: 960px) {
+    .panel-table {
+        flex-direction: row;
+        margin-top: 0px; 
+    }
+    .sedans-type {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    .luxury-type {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+    .sedans-link:hover {
+        background-color: hsl(31, 77%, 52%);
+        color:hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        transition: background-color 200ms ease-in-out;
+    }
+    .suv-link:hover{
+        background-color: hsl(184, 100%, 22%);
+        color:hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        transition: background-color 200ms ease-in-out;
+    }
+    .luxury-link:hover {
+        background-color: hsl(179, 100%, 13%);
+        color:hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        transition: background-color 200ms ease-in-out;
+    }
 }
